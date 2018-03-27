@@ -7,7 +7,7 @@ A simple Python script for plotting data from the command line.
 ## Installation
 For easier usage, put the code in your favorite directory (e.g. `~/myFavDir/`),
 and then add the following line in your startup configuration file
-(e.g. `.bashrc` or `zshrc`):
+(e.g. `.bash_profile` or `.zshrc`):
 
 `alias plotdat="python ~/myFavDir/plotdat.py"`
 
