@@ -1,10 +1,10 @@
 # plotdat
 Quick-plot data from text file.
 
-### Description
+## Description
 A simple Python script for plotting data from the command line.
 
-### Installation
+## Installation
 For easier usage, put the code in your favorite directory (e.g. `~/myFavDir/`),
 and then add the following line in your startup configuration file
 (e.g. `.bashrc` or `zshrc`):
@@ -19,7 +19,7 @@ If you don't know which shell you're using, check with
 
 `> echo $SHELL`
 
-### Usage
+## Usage
 If you have added the line above, use the examples below as written. Otherwise, instead of just `plotdat`, you should write `python plotdat.py`:
 
 Plot column 2 vs. column 1 in a text file `file.dat`:
