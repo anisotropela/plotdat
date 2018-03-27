@@ -11,8 +11,9 @@ def main():
     purpose = 'purpose:\n' +\
               '  Plot data from text file.'
     example = 'example:\n' +\
-              '  Make a scatter plot of column 4 vs. column 1 with a logarithmic x axis:\n' +\
-              '  > python plotdat.py file.dat -s -ycol 3 -xlog'
+              '  Make a scatter plot of column 4 vs. column 1 with a logarithmic x axis,\n' +\
+              '  using the header as labels:\n' +\
+              '  > python plotdat.py file.dat -s -l -ycol 3 -xlog'
     parser = argparse.ArgumentParser(description=purpose, formatter_class=RawTextHelpFormatter, epilog=example)
     parser.add_argument('-s',      action='store_true', help='Scatter instead of plot')
     parser.add_argument('-l',      action='store_true', help='Use header as label (if it exists)')

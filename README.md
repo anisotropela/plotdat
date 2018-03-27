@@ -26,9 +26,12 @@ Plot column 2 vs. column 1 in a text file `file.dat`:
 
 `> plotdat file.dat`
 
-Make a scatter plot of column 4 vs. column 1 with a logarithmic x axis:
+Make a scatter plot of column 4 vs. column 1 with a logarithmic x axis,
+using the header as labels:
 
-`> plotdat file.dat -s -ycol 3 -xlog`
+`> plotdat file.dat -s -l -ycol 3 -xlog`
+
+Note that the syntax for "column 4" is `-ycol 3`, as is standard for Python.
 
 Get help
 
